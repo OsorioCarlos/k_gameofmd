@@ -8,6 +8,7 @@ public class Bird : MonoBehaviour {
     private Rigidbody2D rb2d;
     private Animator anim;
     public float upForce = 200f;
+    public GameController gameController;
 
     private void Awake () {
         rb2d = GetComponent<Rigidbody2D> ();
@@ -22,16 +23,17 @@ public class Bird : MonoBehaviour {
     // Update is called once per frame
     private void Update () {
         if (estaMuerto) return;
-        
+
         if (Input.GetMouseButtonDown (0)) {
             rb2d.velocity = Vector2.zero;
             rb2d.AddForce (Vector2.up * upForce);
-            anim.SetTrigger("fly");
+            anim.SetTrigger ("fly");
         }
     }
 
     private void OnCollisionEnter2D (Collision2D collision) {
         estaMuerto = true;
-        anim.SetTrigger("die");
+        anim.SetTrigger ("die");
+        gameController.BirdDie ();
     }
 }
