@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class GameController : MonoBehaviour {
 
@@ -10,6 +11,9 @@ public class GameController : MonoBehaviour {
     public GameObject gameOverText;
     public bool gameOver;
     public float scrollSpeed = -1.5f;
+
+    private int score;
+    public Text scoreText;
 
     public void Awake()
     {
@@ -22,9 +26,11 @@ public class GameController : MonoBehaviour {
 
         }
     }
-    // Start is called before the first frame update
-    public void Start () {
-
+    
+    public void BirdScored(){
+        if (gameOver) return;
+        score++;
+        scoreText.text = "Puntaje: " + score;
     }
 
     // Update is called once per frame
