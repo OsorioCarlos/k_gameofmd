@@ -4,13 +4,12 @@ using UnityEngine;
 
 public class AirplanePool : MonoBehaviour
 {
-
     public int airplanePoolSize = 5;
     public GameObject airplanePrefab;
 
     public float AirplaneMin = -4f;
     public float AirplaneMax = 1.5f;
-    private float spawnXPosition = 10f;
+    private float spawnXPosition = 11f;
 
     private GameObject[] airplanes;
     private Vector2 objectPoolPosition = new Vector2(-14, 0);
@@ -45,5 +44,6 @@ public class AirplanePool : MonoBehaviour
                 currentAriplane = 0;
             }
         }
+
     }
 }
