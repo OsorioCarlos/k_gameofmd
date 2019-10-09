@@ -439,8 +439,8 @@ GameObject:
   - component: {fileID: 7269518313110079992}
   - component: {fileID: 7269518313110079750}
   - component: {fileID: 7269518313110079749}
-  - component: {fileID: 7269518313110079748}
   - component: {fileID: 165437042100185122}
+  - component: {fileID: 5727655199805390749}
   m_Layer: 0
   m_Name: Moneda
   m_TagString: Untagged
@@ -524,25 +524,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d838bae81afda84eba8452e443b74ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!95 &7269518313110079748
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7269518313110079993}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 0a8ba6730c2a3eb43bcb4029dbeffe3b, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!68 &165437042100185122
 EdgeCollider2D:
   m_ObjectHideFlags: 0
@@ -561,6 +542,25 @@ EdgeCollider2D:
   m_Points:
   - {x: -0.026437348, y: -0.18691377}
   - {x: -0.025939643, y: 0.19410281}
+--- !u!95 &5727655199805390749
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7269518313110079993}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 0a8ba6730c2a3eb43bcb4029dbeffe3b, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &7269518313362240237
 GameObject:
   m_ObjectHideFlags: 0
