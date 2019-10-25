@@ -313,8 +313,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03e99a80e42759544b7cd774d8b4dae1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  avion: {fileID: 7269518312530275774}
-  helice: {fileID: 7269518313362240237}
 --- !u!1 &7269518312530275774
 GameObject:
   m_ObjectHideFlags: 0
@@ -440,9 +438,9 @@ GameObject:
   m_Component:
   - component: {fileID: 7269518313110079992}
   - component: {fileID: 7269518313110079750}
-  - component: {fileID: 7269518313110079749}
   - component: {fileID: 165437042100185122}
   - component: {fileID: 5727655199805390749}
+  - component: {fileID: 848792360464421050}
   m_Layer: 0
   m_Name: Moneda
   m_TagString: Untagged
@@ -514,19 +512,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &7269518313110079749
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7269518313110079993}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d838bae81afda84eba8452e443b74ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  coin: {fileID: 7269518313110079993}
 --- !u!68 &165437042100185122
 EdgeCollider2D:
   m_ObjectHideFlags: 0
@@ -564,6 +549,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &848792360464421050
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7269518313110079993}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d838bae81afda84eba8452e443b74ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coin: {fileID: 7269518313110079993}
 --- !u!1 &7269518313362240237
 GameObject:
   m_ObjectHideFlags: 0

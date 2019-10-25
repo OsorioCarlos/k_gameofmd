@@ -746,6 +746,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7269518313110079993, guid: 9d9a06a485a34c943902db6f9c158e46,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7269518313110079750, guid: 9d9a06a485a34c943902db6f9c158e46,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9d9a06a485a34c943902db6f9c158e46, type: 3}
 --- !u!1 &617245401
@@ -808,7 +818,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0774bd0a1a1c5f4458caeee4481169ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  airplanePoolSize: 5
+  airplanePoolSize: 10
   airplanePrefab: {fileID: 2117572502}
   AirplaneMin: -4
   AirplaneMax: 1.5
