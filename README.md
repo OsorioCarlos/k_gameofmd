@@ -1,4 +1,4 @@
 # k_gameofmd
-Proyecto Empresarial "Juego para el Mesero Dijital"
+Proyecto Empresarial "Juego para el Mesero Digital"
 
-Este proeycto esta hecho en Unity 3D
+Este proyecto esta hecho en Unity 3D
